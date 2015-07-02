@@ -8,26 +8,27 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<link href='http://fonts.googleapis.com/css?family=Lato:300,400%7CRaleway:100,400,300,500,600,700%7COpen+Sans:400,500,600' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="assets/css/magnific-popup.css">
 	</head>
 	<body>
 	<!-- the header that will be animated by adding the respective state class to it -->
 	<header id="ha-header" class="ha-header ha-header-small">
 		<div class="ha-header-perspective">
 			<div class="ha-header-front">
-				<h1><span>РУСПЛАН.РФ</span></h1>
+				<h1><span>ЛИК</span></h1>
 				<nav>
 					<a href="#">&lsaquo; +7 (8652) 350-350</a>
-					<a>Услуги</a>
-					<a>Наши цены</a>
-					<a href="#">Контакты</a>
+					<a href="#service">Услуги</a>
+					<a href="#price">Наши цены</a>
+					<a href="#bottom">Контакты</a>
 				</nav>
 			</div>
 		</div>
 	</header>
 		<!-- Header -->
 			<div id="header">
-				<span class="logo icon fa-paper-plane-o"></span>
-				<h1>Русплан.рф</h1>
+				<span class="logo icon"><img src="images/lik.svg"> </span>
+				<h1>ЛИК</h1>
 				<p>Бизнес-планы для решения предпринимательских задач. <br> Помощь в открытии фирмы и ведении бухгалтерии.
 			</div>
 
@@ -46,21 +47,43 @@
 
 				<div class="box alt container">
 					<section class="feature left">
-						<a href="#" class="image icon fa-signal"></a>
+						<a href="#a-popup" class="image icon fa-signal open-popup-link"></a>
+						<div id="a-popup" class="zoom-anim-dialog mfp-hide">
+							<h1>Наша компания предлагает полный комплексный спектр услуг по бизнес планированию:</h1>
+							<ul class="default">
+								<li>подготовка бизнес-плана для любого бизнеса (от микро до крупного), с учетом требований различных банков (Сбербанк России, Россельхозбанк, ВТБ24, ВЭБ и др.) </li>
+							<li>обоснование инвестиций</li>
+							<li>организация консультаций и информационная поддержка в ходе подготовки бизнес плана</li>
+							<li>подготовка резюме проекта на начальном этапе планирования</li>
+							<li>составление технико-экономического обоснования (ТЭО) проекта</li>
+								</ul>
+						</div>
 						<div class="content">
 							<h3>От идеи до готового бизнес-плана</h3>
 							<p>Мы подготавливаем бизнес-планы как для получения банковских кредитов, так и для обоснования финансовых допущений и прогнозов перед инвесторами.</p>
 						</div>
 					</section>
 					<section class="feature right ha-waypoint" data-animate-down="ha-header-shrink" data-animate-up="ha-header-small">
-						<a href="#" class="image icon fa-folder-o"></a>
+						<a href="#b-popup" class="image icon fa-folder-o open-popup-link"></a>
+						<div id="b-popup" class="zoom-anim-dialog mfp-hide">
+							<h1>Регистрация ООО или ИП под ключ</h1>
+							<p>Профессионально подготовим пакет документов для регистрации и открытия собственного  бизнеса с нуля , в том числе для начинающих КФХ (крестьянских фермерских хозяйств) и семейных ферм.
+								<br/><br/>
+								Кроме этого, окажем помощь в выборе кодов статистики (ОКВЭД - общероссийский классификатор видов экономической деятельности), поможем в изготовлении печати, в максимально короткие сроки организуем открытие расчетного счета в банке по вашему выбору.</p>
+						</div>
 						<div class="content">
 							<h3>Регистрация ООО или ИП под ключ</h3>
 							<p>Подготовка и подача документов, помощь в выборе кодов статистики, изготовлении печати, а также открытии расчетного счета в банке в кратчайшие сроки.</p>
 						</div>
 					</section>
 					<section class="feature left">
-						<a href="#" class="image icon fa-rub"></a>
+						<a href="#c-popup" class="image icon fa-rub open-popup-link"></a>
+						<div id="c-popup" class="zoom-anim-dialog mfp-hide">
+							<h1>Помощь в ведении бухгалтерии</h1>
+							<p>Наша компания предлагает весь спектр бухгалтерских услуг в соответствии с законодательством Российской Федерации, а именно полный комплекс услуг бухгалтерского обслуживания для предприятий малого и среднего бизнеса: подготовка и сдача бухгалтерской отчетности при ОСН, УСН, ЕНВД, ведение бухгалтерии.
+								<br/><br/>
+								Кроме того, мы берем на себя представление Ваших интересов в ИФНС, ПФР, ФСС. Мы предлагаем услуги по восстановлению бухгалтерского учета – составление налоговой и бухгалтерской отчётности за пропущенные периоды, сдача её в контролирующие органы. </p>
+						</div>
 						<div class="content">
 							<h3>Помощь в ведении бухгалтерии</h3>
 							<p>Вы также можете доверить нам комплексное бухгалтерское сопровождение - от обработки первичной документации до сдачи бухгалтерской отчетности и ведения зарплатных начислений. Это выгодно!</p>
@@ -68,20 +91,18 @@
 					</section>
 				</div>
 
-				<div class="box container">
+				<div id="service" class="box container">
 					<header>
-						<h2>A lot of generic stuff</h2>
+						<h2>От идеи до готового бизнеса</h2>
 					</header>
-					<section>
-						<header>
-							<h3>Paragraph</h3>
-							<p>This is the subtitle for this particular heading</p>
+					<section class="indent">
+						<p>Написание бизнес плана - необходимое условие привлечения инвесторов и деловых партнеров для Ваших бизнес-идей и инвестиционных проектов, так как только грамотное бизнес планирование поможет оценить рентабельность и эффективность проекта, рассчитать финансовую модель и показатели, подготовить план действия для достижения поставленных целей.</p>
+						<header class="indent">
+							<p>РАЗРАБОТКА БИЗНЕС ПЛАНА – сложная и ответственная задача, решение которой следует доверять только профессионалам.</p>
 						</header>
-						<p>Phasellus nisl nisl, varius id <sup>porttitor sed pellentesque</sup> ac orci. Pellentesque
-						habitant <strong>strong</strong> tristique <b>bold</b> et netus <i>italic</i> malesuada <em>emphasized</em> ac turpis egestas. Morbi
-						leo suscipit ut. Praesent <sub>id turpis vitae</sub> turpis pretium ultricies. Vestibulum sit
-						amet risus elit.</p>
+						<p class="indent">В случае необходимости наши специалисты готовы защищать разработанный нами бизнес план перед потенциальными инвесторами, а также могут принять активное участие в переговорах с инвесторами, подготовить пакет документов, разработать финансовую схему реализации инвестиционного проекта.</p>
 					</section>
+					<!--
 					<section>
 						<header>
 							<h3>Blockquote</h3>
@@ -90,7 +111,6 @@
 						tempus euismod. Vestibulum ante ipsum primis in faucibus.</blockquote>
 						<hr />
 					</section>
-					<!--
 					<section>
 						<header>
 							<h3>Divider</h3>
@@ -125,7 +145,7 @@
 						</ol>
 					</section>
 					-->
-					<section>
+					<section id="price" class="indent">
 						<header>
 							<h3>Наши цены</h3>
 						</header>
@@ -133,55 +153,71 @@
 							<table class="default">
 								<thead>
 									<tr>
-										<th>ID</th>
-										<th>Name</th>
-										<th>Description</th>
-										<th>Price</th>
+										<th>Наименование работ</th>
+										<th>Количество страниц</th>
+										<th>Срок выполнения работ, дней</th>
+										<th>Стоимость, руб.</th>
 									</tr>
 								</thead>
 								<tbody>
 									<tr>
-										<td>45815</td>
-										<td>Something</td>
-										<td>Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</td>
-										<td>29.99</td>
+										<td>Подготовка бизнес плана - без маркетинговых исследований, общий обзор рынка, без специфических требований к формату</td>
+										<td>35-40</td>
+										<td>5-7</td>
+										<td>от 20000</td>
 									</tr>
 									<tr>
-										<td>24524</td>
-										<td>Nothing</td>
-										<td>Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</td>
-										<td>19.99</td>
+										<td>Подготовка бизнес плана - без маркетинговых исследований, общий обзор рынка, со специфическими требованиями к формату</td>
+										<td>35-40</td>
+										<td>6-10</td>
+										<td>25000-40000</td>
 									</tr>
 									<tr>
-										<td>45815</td>
-										<td>Something</td>
-										<td>Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</td>
-										<td>29.99</td>
+										<td>Нетиповой бизнес план</td>
+										<td>50</td>
+										<td>30</td>
+										<td>от 50000</td>
 									</tr>
 									<tr>
-										<td>24524</td>
-										<td>Nothing</td>
-										<td>Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</td>
-										<td>19.99</td>
+										<td>Разработка финансовой модели</td>
+										<td>5</td>
+										<td>5</td>
+										<td>15000</td>
+									</tr>
+									<tr>
+										<td>Подготовка бизнес плана для получения субсидии (программа поддержки развития малого бизнеса)</td>
+										<td>20</td>
+										<td>3-5</td>
+										<td>15000</td>
+									</tr>
+									<tr>
+										<td>Подготовка презентации проекта</td>
+										<td>5-10</td>
+										<td>3</td>
+										<td>7000-10000</td>
 									</tr>
 								</tbody>
-								<tfoot>
-									<tr>
-										<td colspan="3"></td>
-										<td>100.00</td>
-									</tr>
-								</tfoot>
 							</table>
 						</div>
+					</section>
+						<header class="indent">
+							<h3>Мы РАЗРАБАТЫВАЕМ БИЗНЕС ПЛАНЫ для следующих категорий клиентов и заказчиков:</h3>
+						</header>
+						<ul class="default indent">
+							<li>для частных инвесторов и стратегических инвесторов</li>
+							<li>для собственников и владельцев бизнеса</li>
+							<li>для руководства компании для обоснования эффективности проекта</li>
+							<li>для внешнего акционера/акционеров для обоснования эффективности проекта</li>
+						</ul>
 					</section>
 				</div>
 
 
 				<footer class="major container 75%">
-					<h3>ПРИЗЫВ К ДЕЙСТВИЮ</h3>
-					<p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus.</p>
+					<h3>Наши планы работают</h3>
+					<!--<p>Мы составляем бизнес планы, которые работают</p>-->
 					<ul class="actions">
-						<li><a href="#" class="button">СВЯЗАТЬСЯ</a></li>
+						<li><a href="#bottom" class="button">СВЯЗАТЬСЯ</a></li>
 					</ul>
 				</footer>
 
@@ -194,8 +230,7 @@
 						<h2>Вопросы или предложения?</h2>
 					</header>
 
-					<p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor
-					orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus.</p>
+					<p>Свяжитесь с нами любым удобным для Вас способом и наши специалисты ответят на все Ваши вопросы.</p>
 
 					<form method="POST" id="feedback-form">
 						<div class="row">
@@ -225,8 +260,8 @@
 						<li><a href="#" class="icon fa-envelope-o"><span class="label">Facebook</span></a></li><li>rusplan@mail.ru</li>
 					</ul>
 
-					<ul class="copyright">
-						<li>&copy; Русплан.рф</li><li>Подготовка бизнес-планов</li><li>Разработка сайта: <a href="http://ceo.tabootaboo.ru">Руслан Львов</a></li>
+					<ul id="bottom" class="copyright">
+						<li>&copy; ООО "ЛИК"</li><li>Подготовка бизнес-планов</li><li>Разработка сайта: <a href="http://ceo.tabootaboo.ru">Руслан Львов</a></li>
 					</ul>
 
 				</div>
@@ -237,8 +272,10 @@
 			<script src="assets/js/waypoints.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
+			<script src="assets/js/jquery.magnific-popup.min.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+
 
 
 	</body>
