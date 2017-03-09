@@ -3274,7 +3274,7 @@
 
 .ha-header h1 {
 	font-weight: 300;
-	font-size: 2.0em;
+	font-size: 1.5em;
 	margin: 0;
 	padding: 0 1em 0 0;
 	color: #fff;
@@ -3403,15 +3403,12 @@
 }
 
 .ha-header-shrink {
-	height: 80px;
-	top: 30px;
-	padding-left: 50px;
-	padding-right: 50px;
+	height: 60px;
+	top: 0;
 }
 
 .ha-header-shrink .ha-header-front {
 	background-color: #BF7733;
-	opacity: 0.5;
 }
 
 .ha-header-shrink .ha-header-bottom {
